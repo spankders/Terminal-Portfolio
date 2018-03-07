@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+        body {
+        background-color: #272727;
+        font-family: 'VT323';
+        font-size: 16pt;
+        padding: 10px;
+        width: 90%;
+        }
+        .typed-cursor{
+        color: white
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+        }
+        @keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+        }
+        .element span{
+        color: #fff;
+        margin: 0;
+        }
+        .element .bash:before{
+        content: "abay@abaykan.com:~/code/portfolio $";
+        color: lime;
+        }
+        .element .abaykan:before{
+        content: ">>>";
+        color: green;
+        }
+        .panel{
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-right: 50%;
+        height: 280px;
+        width: 700px;
+        background-color:#222;
+        border:1px solid transparent;
+        border-radius:0;
+        -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.05);
+        box-shadow:0 1px 1px rgba(0,0,0,0.05)
+        }
+        .panel-body{
+        padding:15px;
+        }
+        .panel-heading{
+        padding:10px 15px;
+        border-bottom:1px solid transparent;
+        border-top-right-radius:-1;
+        border-top-left-radius:-1
+        }
+        .panel-title{
+        margin-top:0;
+        margin-bottom:0;
+        font-size:20px;
+        color: cyan;
+        }
+        .panel-success{
+        border-color:#2f2f2f
+        }
+        .panel-success>.panel-heading{
+        color:#0d0;
+        background-color:#3c3c3c;
+        border-color:#2f2f2f
+        }
+        .panel-success>.panel-heading+.panel-collapse>.panel-body{
+        border-top-color:#2f2f2f
+        }
+        .panel-success>.panel-heading .badge{
+        color:#3c3c3c;
+        background-color:#0d0
+        }
+        .panel-success>.panel-footer+.panel-collapse>.panel-body{
+        border-bottom-color:#2f2f2f
+        }
+        .fakeButtons {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        border: 1px solid #000;
+        position: relative;
+        top: 1px;
+        left: 3px;
+        background-color: #ff3b47;
+        border-color: #9d252b;
+        display: inline-block;
+        }
+        .fakeZoom {
+        left: 9px;
+        background-color: #00d742;
+        border-color: #049931;
+        }
+        .fakeMinimize {
+        left: 6px;
+        background-color: #ffc100;
+        border-color: #9d802c;
+      }
+      a     {
+        text-decoration: none;
+        color: cyan;
+      }
+      a:hover     {
+        text-decoration: none;
+        color: lime;
+      }
+      p     {
+        margin-left:40%;
+        font-size: 20pt;
+        color: white;
+      }
